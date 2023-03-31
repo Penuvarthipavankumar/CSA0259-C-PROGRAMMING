@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main (){
+  float feet, inches;
+  printf ("\n Please enter a value of feet = ");
+  scanf ("%f", &feet);
+  inches = feet * 12;
+  printf ("\n %.2f feet = %.2f inches \n\t \n", feet, inches);
+  return 0;
+}
